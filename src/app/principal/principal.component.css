@@ -1,0 +1,13 @@
+.button{
+    border-radius: 30px;
+    width: 10%;
+    padding: 15px;
+    color: red;
+    border: 0px;
+    outline: 0px;
+    position: center;
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to bottom, black, red);
+}

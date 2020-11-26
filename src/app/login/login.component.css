@@ -1,0 +1,59 @@
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.card-top{
+    text-align: center;
+}
+
+.imgLogin{
+    border-radius: 30px;
+    width: 80px;
+    height: 80px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.titulo{
+    color: red;
+}
+
+.card-group{
+    margin-bottom: 10px;
+}
+
+.card-group >label{
+    width: 100%;
+    color: rgb(75, 75, 75);
+    display: block;
+}
+
+.card-group >input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding:5px
+}
+
+.card-group >button{
+    background-image: linear-gradient(to bottom, red, black);
+    border-radius: 30px;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    border: 0px;
+    outline: 0px;
+}
+
+.btn button:hover{
+    background-image: linear-gradient(to bottom, black, red);
+}
